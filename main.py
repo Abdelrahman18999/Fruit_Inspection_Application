@@ -12,7 +12,7 @@ st.markdown("This web application about classify fruits if it is fresh or spoild
 st.header("Upload a fruit image")
 
 # Set a background image
-set_background("fruit_background.jpeg")
+#set_background("fruit_background.jpeg")
 
 # upload an image file
 file = st.file_uploader('', type=['jpeg', 'jpg', 'png'])
