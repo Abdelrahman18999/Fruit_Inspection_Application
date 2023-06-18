@@ -10,7 +10,7 @@ from util import set_background, classify
 
 
 file_id = '1kr6YPUxyVXVMQQ1wcdprgmqePRKnyNhL'
-output = 'Fruit_Inspection_Application/model.h5'
+output = 'fruits_inspection_model.h5'
 
 gdown.download(f'https://drive.google.com/file/d/1kr6YPUxyVXVMQQ1wcdprgmqePRKnyNhL/view?usp=sharing={file_id}', output, quiet=False)
 
