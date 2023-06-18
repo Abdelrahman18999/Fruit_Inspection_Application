@@ -2,3 +2,5 @@ base64
 numpy
 streamlit
 PIL
+keras
+tensorflow
