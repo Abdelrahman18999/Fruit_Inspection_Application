@@ -1,6 +1,6 @@
 import streamlit as st
 import base64
-import gdown
+#import gdown
 import numpy as np
 import pandas as pd
 from PIL import Image
@@ -9,10 +9,10 @@ from keras.models import load_model
 from util import set_background, classify
 
 
-file_id = '1kr6YPUxyVXVMQQ1wcdprgmqePRKnyNhL'
-output = 'fruits_inspection_model.h5'
+#file_id = '1kr6YPUxyVXVMQQ1wcdprgmqePRKnyNhL'
+#output = 'fruits_inspection_model.h5'
 
-gdown.download(f'https://drive.google.com/file/d/1kr6YPUxyVXVMQQ1wcdprgmqePRKnyNhL/view?usp=sharing={file_id}', output, quiet=False)
+#gdown.download(f'https://drive.google.com/file/d/1kr6YPUxyVXVMQQ1wcdprgmqePRKnyNhL/view?usp=sharing={file_id}', output, quiet=False)
 
 st.title("Fruit Inspection Application")
 st.markdown("This web application about classify fruits if it is fresh or spoild")
